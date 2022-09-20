@@ -1,5 +1,5 @@
 var name1 = "John";
 var name2 = "Kenneth";
-var difference = 3
-var length = longer
-console.log("The name" name2 "is" difference " " length "than" name1);
+
+var difference = name2.length - name1.length;
+console.log("The name Kenneth is loger than John by " + difference);
